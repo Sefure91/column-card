@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background: hsl(0, 0%, 95%);
+}
+
+.columns {
+    display: flex;
+    margin: 300px auto;
+    border: 1px solid transparent;
+    width: 920px;
+    height: 500px;
+    
+}
+
+img {
+    margin: 40px 30px;
+}
+
+.column {
+    border: 3px solid transparent;
+    padding-right: 46px;
+    
+}
+
+h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 30px;
+    width: 212px;
+}
+
+button{
+    background: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 40px;
+    padding: 15px 30px;
+    margin: 90px 0 40px 40px;
+    
+}
+
+.orange {
+    background: #E28625;
+    border-radius: 10px 0 0 10px;
+}
+
+.btn-orange {
+    color:#E28625;
+}
+
+.btn-orange:hover {
+    background: #E28625;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.green {
+    background: #006971;
+}
+
+.btn-green {
+    color: #006971
+}
+
+.btn-green:hover {
+    background: #006971;
+    color: white;
+    border: 2px solid white;
+}
+
+.forest {
+    background: #004140;
+    border-radius: 0 10px 10px 0;
+}
+
+.btn-forest {
+    color: #004140;
+}
+
+.btn-forest:hover {
+    background: #004140;
+    color: white;
+    border: 2px solid white;
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        margin-top: -300px;
+    }
+
+    .columns {
+        display: grid;
+        max-width: 350px;
+    }
+
+    .orange {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .forest {
+        border-radius: 0 0 10px 10px;
+    }
+
+    
+}
